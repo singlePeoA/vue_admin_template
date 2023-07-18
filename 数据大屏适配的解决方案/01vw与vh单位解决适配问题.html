@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            /* 下面宽度100vw，是占当前页面可视区域宽度的100% */
+            width:100vw;
+            height:100vh;
+            background: orange;
+        }
+        .top{
+            /* 下面宽度100vw，是占当前页面可视区域宽度的5.2% */
+            width: 5.2vw;
+            height: 9.26vh;
+            background: red;
+            margin-left: 2.6vw;
+        }
+
+        .bottom{
+            width: 5.2vw;
+            height: 9.26vh;
+            background: skyblue; 
+            margin-left: 2.6vw;
+            margin-top:9.26vh;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="top">数据大屏幕</div>
+        <div class="bottom">hahaha </div>
+    </div>
+</body>
+
+</html>
+<script>
+    // vw和vh是css3中一种新增的单位，它们兼容IE8版本及以上
+    // vw是当前页面可视区域的宽度，它们有点类似于百分比
+    // vh是当前页面可视区域的高度
+    // vw和vh不支持文字大小适配问题
+</script>

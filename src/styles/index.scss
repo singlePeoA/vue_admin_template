@@ -1,0 +1,18 @@
+// 引入清除默认样式的scss文件
+@import './reset.scss';
+
+
+// 滚动条的整体外观样式设置
+::-webkit-scrollbar{
+    width: 10px;
+}
+// 滚动条的长条样式设置
+::-webkit-scrollbar-track{
+    background-color: $base-menu-background;
+}
+// 滚动条的滚轮样式设置
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
